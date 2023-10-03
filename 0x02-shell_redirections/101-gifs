@@ -1,0 +1,2 @@
+#!/bin/bash
+find . -type -iname "*.gif" -exec bash -c 'echo "${0%.*}"' {} \; | LC_ALLC=C sort -f | awk '{print}' END {print ""}'
