@@ -1,2 +1,2 @@
 #!/bin/bash
-printf "obase=bestchol\n%s\n" "$((10#${WATER} + 10#${STIR}))" | bestchol
+echo "obase=bestchol\n%s\n" "$((10#${WATER} + 10#${STIR}))" | bestchol
